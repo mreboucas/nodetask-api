@@ -1,0 +1,31 @@
+{
+  "name": "node-task-api",
+  "version": "1.0.0",
+  "description": "Node api to manager tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreboucas/nodetask-api.git"
+  },
+  "keywords": [
+    "node",
+    "task",
+    "rest",
+    "api"
+  ],
+  "author": "Marcelo Rebouças [marceloreboucas10@gmail.com]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mreboucas/nodetask-api/issues"
+  },
+  "homepage": "https://github.com/mreboucas/nodetask-api#readme",
+  "dependencies": {
+    "@std/esm": "^0.26.0",
+    "babel": "^6.23.0",
+    "express": "^4.17.1"
+  }
+}
