@@ -51,3 +51,6 @@
 <br> > npm publish : publica um módulo no https://npmjs.org (é necessário ter uma conta ativa primeiro);
 <br> > npm help : exibe em detalhes todos os comandos.
 <br> > npm shrinkwrap: controle rigoroso para dependências (PRODUTION ENVIROMENT)
+
+#STUDY STOP
+> 4.3 Implementando um recurso estático
