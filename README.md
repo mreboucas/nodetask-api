@@ -21,8 +21,8 @@
 
 > Sql-Like <br>
 
-#Corrigir import node v8
- > npm install --save @std/esm express
+#Corrigir import js no node v8
+ > npm install --save @std/esm
  > start -> adicionar o comando: "start": "node -r esm index.js" em scripts
 
 #Starts a project
@@ -51,6 +51,13 @@
 <br> > npm publish : publica um módulo no https://npmjs.org (é necessário ter uma conta ativa primeiro);
 <br> > npm help : exibe em detalhes todos os comandos.
 <br> > npm shrinkwrap: controle rigoroso para dependências (PRODUTION ENVIROMENT)
+
+#JSON format response
+> app.set("json spaces", 4); <br>
+
+# Organizar as rotas - padrão
+> MVR (Model-View-Router) <br>
+> npm install consign --save <br>
 
 #STUDY STOP
 > 4.3 Implementando um recurso estático

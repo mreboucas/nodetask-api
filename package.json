@@ -26,6 +26,7 @@
   "dependencies": {
     "@std/esm": "^0.26.0",
     "babel": "^6.23.0",
+    "consign": "^0.1.6",
     "express": "^4.17.1"
   }
 }
