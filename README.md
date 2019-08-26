@@ -1,4 +1,4 @@
-#Conceito e funcioinalides da API - Node-Task-Api
+# Conceito e funcioinalides da API - Node-Task-Api
 
 • Listagem de tarefas do usuário;<br>
 • Consulta, cadastro, exclusão e alteração de uma tarefa do usuário; <br>
@@ -6,7 +6,7 @@
 • Autenticação de usuário; <br>
 • Página de documentação da API. <br>
 
-#Frameworks - Libraries
+# Frameworks - Libraries
 
 > Node <br>
 
@@ -21,15 +21,15 @@
 
 > Sql-Like <br>
 
-#Corrigir import js no node v8
+# Corrigir import js no node v8
  > npm install --save @std/esm
  > start -> adicionar o comando: "start": "node -r esm index.js" em scripts
 
-#Starts a project
+# Starts a project
 > npm install <br>
 > npm start <br>
 
-#Main commands node
+# Main commands node
 
 <br> > npm init : exibe um miniquestionário para auxiliar na criação e descrição do package.json do seu projeto;
 
@@ -52,12 +52,12 @@
 <br> > npm help : exibe em detalhes todos os comandos.
 <br> > npm shrinkwrap: controle rigoroso para dependências (PRODUTION ENVIROMENT)
 
-#JSON format response
+# JSON format response
 > app.set("json spaces", 4); <br>
 
 # Organizar as rotas - padrão
 > MVR (Model-View-Router) <br>
 > npm install consign --save <br>
 
-#STUDY STOP
+# STUDY STOP
 > 4.3 Implementando um recurso estático
