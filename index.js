@@ -1,5 +1,4 @@
 import express from "express";
-
 import consign from "consign";
 
 const PORT = 3000;
@@ -19,7 +18,9 @@ app.set("port", 3000)
  */
 
 consign()
-.include("models")
+.include("libs/config.js")
+.then("db.js")
+//.then("models")
 .then("libs/middlewares.js")
 .then("routes")
 .then("libs/boot.js")

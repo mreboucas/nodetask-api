@@ -62,4 +62,4 @@
 > npm install consign --save <br>
 
 # STUDY STOP
-5.2 Configurando o Sequelize
+Capítulo 6 Implementando CRUD dos recursos da API
