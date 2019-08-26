@@ -11,15 +11,17 @@
 > Node <br>
 
 > Express <br>
-• Routing robusto; <br>
-• Facilmente integrável com os principais Template Engines; <br>
-• Código minimalista; <br>
-• Trabalha com conceito de middlewares; <br>
-• Possui uma grande lista de middlewares 3rd-party; <br>
-• Content Negotiation; <br>
-• Adota padrões e boas práticas de serviços REST. <br>
+    • Routing robusto; <br>
+    • Facilmente integrável com os principais Template Engines; <br>
+    • Código minimalista; <br>
+    • Trabalha com conceito de middlewares; <br>
+    • Possui uma grande lista de middlewares 3rd-party; <br>
+    • Content Negotiation; <br>
+    • Adota padrões e boas práticas de serviços REST. <br>
 
 > Sql-Like <br>
+
+> Consign <br>
 
 # Corrigir import js no node v8
  > npm install --save @std/esm
@@ -60,4 +62,4 @@
 > npm install consign --save <br>
 
 # STUDY STOP
-> 4.3 Implementando um recurso estático
+5.2 Configurando o Sequelize
