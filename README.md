@@ -62,4 +62,4 @@
 > npm install consign --save <br>
 
 # STUDY STOP
-Capítulo 6 Implementando CRUD dos recursos da API
+6.9 Capítulo 6. Implementando CRUD dos recursos da API Implementando rotas para gestão de usuários
