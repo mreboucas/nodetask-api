@@ -14,7 +14,9 @@
 */
 
 module.exports = (sequelize, DataType) => {
-
+    /**
+     * A função sequelize.define("Tasks") é responsável por criar ou alterar uma tabela no banco de dados.
+     */
     const Tasks = sequelize.define("Tasks", {
         id: {
             type: DataType.INTEGER,

@@ -27,6 +27,9 @@
  > npm install --save @std/esm
  > start -> adicionar o comando: "start": "node -r esm index.js" em scripts
 
+# PLugin VsCode sqlite
+> vscode-sqlite
+
 # Starts a project
 > npm install <br>
 > npm start <br>
@@ -69,6 +72,7 @@
 "Trabalhar"} .
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
+#
 
 # STUDY STOP
 Capítulo 7 Autenticando usuários na API
