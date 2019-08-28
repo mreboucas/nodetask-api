@@ -5,7 +5,7 @@ import Sequelize from "sequelize";
 
 let db = null;
 
-const config = require("./libs/config.js")
+//const config = require("./libs/config.js")
 
 let sequelize = null;
 
@@ -13,12 +13,16 @@ module.exports = app => {
 
     if(!db) {
         const config = app.libs.config;
+        
         const sequelize = new Sequelize(
             config.database,
             config.username,
             config.password,
             config.params
         );
+        // sequelize.sync({force:true}).then(() => {
+        //     console.log(`Database rebuilded!`);
+        // })
         db = {
             sequelize,
             Sequelize,
