@@ -61,5 +61,14 @@
 > MVR (Model-View-Router) <br>
 > npm install consign --save <br>
 
+# Router test
+• Método GET , rota http://localhost:3000/tasks. <br>
+• Método GET , rota http://localhost:3000/tasks/1. <br>
+• Método GET , rota http://localhost:3000/tasks/2. <br>
+• Método PUT , rota http://localhost:3000/tasks/1, body {"title": <br>
+"Trabalhar"} .
+• Método DELETE , rota http://localhost:3000/tasks/2. <br>
+
+
 # STUDY STOP
-6.9 Capítulo 6. Implementando CRUD dos recursos da API Implementando rotas para gestão de usuários
+Capítulo 7 Autenticando usuários na API
