@@ -82,4 +82,4 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
 # STUDY STOP
-7.4 Gerando Tokens para usuários autenticados
+ 7.4 Gerando Tokens para usuários autenticados
