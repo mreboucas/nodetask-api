@@ -22,12 +22,22 @@
 > Sql-Like <br>
 
 > Consign <br>
+    • Realiza o empacotamento dos módulos de forma sintética e abstrata
+
+> Passport e JWT <br>
+    • Passport: permite trabalhar com autenticação Basic & Digest, OpenID, OAuth, OAuth 2.0, JWT e servuiços externos: Facebook, Google+, Twitter e muito mais <br>
+    http://www.passportjs.org/docs/authenticate/
+    • Passaport with keucloack: https://www.npmjs.com/package/passport-keycloak-bearer <br>
+    • JWT: JWT (JSON Web Tokens) é uma estratégia bem simples e segura para autenticação de APIs RESTful. Ela é um open standard para autenticações de aplicações web baseado no tráfego de tokens em formato JSON, entre o cliente e servidor. <br>
+    http://jwt.io.
+
+Instalação: npm install passport passport-jwt jwt-simple --save
 
 # Corrigir import js no node v8
  > npm install --save @std/esm
  > start -> adicionar o comando: "start": "node -r esm index.js" em scripts
 
-# PLugin VsCode sqlite
+# Plugin VsCode sqlite
 > vscode-sqlite
 
 # Starts a project
@@ -68,11 +78,8 @@
 • Método GET , rota http://localhost:3000/tasks. <br>
 • Método GET , rota http://localhost:3000/tasks/1. <br>
 • Método GET , rota http://localhost:3000/tasks/2. <br>
-• Método PUT , rota http://localhost:3000/tasks/1, body {"title": <br>
-"Trabalhar"} .
+• Método PUT , rota http://localhost:3000/tasks/1, body {"title": "Trabalhar"}. <br>
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
-#
-
 # STUDY STOP
-Capítulo 7 Autenticando usuários na API
+7.4 Gerando Tokens para usuários autenticados

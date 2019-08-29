@@ -7,6 +7,9 @@
  • params.define.underscored – padroniza o nome dos campos da tabela em minúsculo usando underscore no lugar dos espaços em branco.
  */
 
+ /**
+  * jwtSession: {session: false}: Informa ao passport que a autenticação não terá sessão do usuário.
+  */
 module.exports = {
     database: "ntask",
     username: "",
@@ -17,5 +20,7 @@ module.exports = {
         define: {
             underscored: true
         }
-    }
+    },
+    jwtSecret: "Nta$K-AP1",
+    jwtSession: {session: false}
 };
