@@ -1,6 +1,10 @@
 import passport from "passport";
 import { Strategy } from "passport-jwt";
-
+/**
+ * @INFO
+ * A função done() envia os dados de usuário autenticado e as rotas autenticada recebem esses dados através do objeto req.user. 
+ * No nosso caso, esse objeto terá apenas os atributos: id e email .
+ */
 module.exports = app => {
     const Users = app.db.models.Users;
     const cfg = app.libs.config;

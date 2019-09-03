@@ -22,7 +22,7 @@
 > Sql-Like <br>
 
 > Consign <br>
-    • Realiza o empacotamento dos módulos de forma sintética e abstrata
+    • Realiza o empacotamento dos módulos de forma sintética, agrupada e abstrata.
 
 > Passport e JWT <br>
     • Passport: permite trabalhar com autenticação Basic & Digest, OpenID, OAuth, OAuth 2.0, JWT e servuiços externos: Facebook, Google+, Twitter e muito mais <br>
@@ -30,6 +30,10 @@
     • Passaport with keucloack: https://www.npmjs.com/package/passport-keycloak-bearer <br>
     • JWT: JWT (JSON Web Tokens) é uma estratégia bem simples e segura para autenticação de APIs RESTful. Ela é um open standard para autenticações de aplicações web baseado no tráfego de tokens em formato JSON, entre o cliente e servidor. <br>
     http://jwt.io.
+    • npm install passport passport-jwt jwt-simple --save
+> Bcrypt <br>
+    • A criptografia de senha dos usuários
+    • npm install bcrypt --save
 
 Instalação: npm install passport passport-jwt jwt-simple --save
 
@@ -82,4 +86,4 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
 # STUDY STOP
- 7.4 Gerando Tokens para usuários autenticados
+ Para finalizar esse refactoring de acesso aos recursos por meio de usuário - pag 81.
