@@ -9,30 +9,21 @@
 
  /**
   * jwtSession: {session: false}: Informa ao passport que a autenticação não terá sessão do usuário.
+  * 
+  * logging: false - evita criar reports de testes confusos.
   */
- module.exports = app => {
-
-    const env = process.env.NODE_ENV;
-
-    if (Boolean(env)) {
-        return require(`./config.${env}.js`);
-    }
-    return require("./config.development.js");
-
-    /**
-     * OLD FASHION 
-     * 
-     database: "ntask",
-     username: "",
-     password: "",
-     params: {
-         dialect: "sqlite",
-         storage: "ntask.sqlite",
-         define: {
-             underscored: true
-            }
-        },
-        jwtSecret: "Nta$K-AP1",
-        jwtSession: {session: false}
-        */
-    };
+module.exports = {
+    database: "ntask_test",
+    username: "",
+    password: "",
+    params: {
+        dialect: "sqlite",
+        storage: "ntask.sqlite",
+        logging: false,
+        define: {
+            underscored: true
+        }
+    },
+    jwtSecret: "NTALK_TEST",
+    jwtSession: {session: false}
+};
