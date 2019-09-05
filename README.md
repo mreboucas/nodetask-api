@@ -35,6 +35,22 @@
     • A criptografia de senha dos usuários
     • npm install bcrypt --save
 
+> Mocha <br>
+    • mocha para rodar os testes;
+    • Testes no estilo TDD;
+    • Testes no estilo BDD;
+    • Cobertura de código com relatório para HTML;
+    • Resultado dos testes customizado;
+    • Teste para funções assíncronas;
+    • Facilmente integrado com os módulos should , assert e chai.
+    • https://mochajs.org.
+  >> Chai <br>
+    • para utilizar uma interface BDD nos testes; e 
+  >>Supertest <br>
+    • para realizar requisições na API.
+
+npm install mocha chai supertest --save-dev
+
 Instalação: npm install passport passport-jwt jwt-simple --save
 
 # Corrigir import js no node v8
@@ -86,4 +102,4 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
 # STUDY STOP
- Para finalizar esse refactoring de acesso aos recursos por meio de usuário - pag 81.
+ npm test - pag 90.
