@@ -17,7 +17,10 @@ app.set("port", 3000)
  * include("models") -> é o diretório chamado: models
  */
 
-consign()
+ /**
+  *Desabilitar alguns logs gerados pelo módulo consign -> ({verbose:false}) para não poluir o report dos testes
+  */
+consign({verbose:false})
 .include("libs/config.js")
 .then("db.js")
 .then("auth.js")
@@ -42,3 +45,5 @@ consign()
 */
 
 //app.listen(PORT, () => console.log(`Node task API - porta ${PORT}`));
+
+module.exports = app;
