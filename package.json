@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node -r esm index.js",
-        "test": "NODE_ENV=test./node_modules/.bin/mocha --compilers js:@babel/register"
+    "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
