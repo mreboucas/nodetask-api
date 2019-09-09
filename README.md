@@ -102,4 +102,7 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
 # STUDY STOP
- npm test - pag 90.
+ Entrando em detalhes sobre com - página 97/113
+
+# Migration Guide to Mocha
+https://github.com/mochajs/mocha/wiki/compilers-deprecation
