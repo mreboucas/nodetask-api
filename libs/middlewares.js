@@ -12,4 +12,11 @@ module.exports = app => {
         delete req.body.id;
         next();
     });
+    /**
+    @INFO
+    Para que seja possível visualizar a página de documentação, primeiro te-
+    remos de habilitar o servidor de arquivos estáticos do Express, para que ele
+    sirva todo o conteúdo estático existente na pasta public
+     */
+    app.use(express.static("public"))
 };

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node -r esm index.js",
-    "test": "NODE_ENV=test mocha test/**/*.js"
+    "test": "NODE_ENV=test mocha --require coffee-script/register --watch --watch-extensions js,coffee test/**/*.{js,coffee}",
+    "apidoc": "apidoc -i routes/ -o public/apidoc"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mreboucas/nodetask-api/issues"
+  },
+  "apidoc": {
+    "name": "Documentação - Node Task API"
   },
   "homepage": "https://github.com/mreboucas/nodetask-api#readme",
   "dependencies": {
@@ -41,7 +45,9 @@
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
+    "apidoc": "^0.17.7",
     "chai": "^4.2.0",
+    "coffeescript": "^2.4.1",
     "mocha": "^6.2.0",
     "supertest": "^4.0.2"
   }

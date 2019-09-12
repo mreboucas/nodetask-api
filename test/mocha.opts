@@ -1,4 +1,5 @@
 --require test/helpers
 --reporter spec
---compilers js:babel/register
+--require js:coffee-script/register
+--no-deprecation
 --slow 5000

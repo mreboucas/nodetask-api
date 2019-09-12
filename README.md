@@ -101,8 +101,12 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 • Método PUT , rota http://localhost:3000/tasks/1, body {"title": "Trabalhar"}. <br>
 • Método DELETE , rota http://localhost:3000/tasks/2. <br>
 
+# Api REST doc
+> http://apidocjs.com/ <br>
+> npm install apidoc --save-dev
+
 # STUDY STOP
- Entrando em detalhes sobre com - página 97/113
+ Para testar essas alterações, basta reiniciar - pag 113
 
 # Migration Guide to Mocha
 https://github.com/mochajs/mocha/wiki/compilers-deprecation
