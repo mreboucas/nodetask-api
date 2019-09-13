@@ -1,3 +1,4 @@
+
 import passport from "passport";
 import { Strategy } from "passport-jwt";
 /**
@@ -5,10 +6,14 @@ import { Strategy } from "passport-jwt";
  * A função done() envia os dados de usuário autenticado e as rotas autenticada recebem esses dados através do objeto req.user. 
  * No nosso caso, esse objeto terá apenas os atributos: id e email .
  */
+/*
 module.exports = app => {
     const Users = app.db.models.Users;
     const cfg = app.libs.config;
-    const strategy = new Strategy({ secrectOrKey: cfg.jwtSecret },
+    var opts = {
+        secretOrKey: cfg.jwtSecret
+    };
+    const strategy = new Strategy(opts,
         (payload, done) => {
             Users.findById(payload.id)
                 .then(user => {
@@ -30,9 +35,8 @@ module.exports = app => {
             return passport.authenticate("jwt", cfg.jwtSession)
         }
     };
-};
+}; */
 
-/**
 const JwtStrategy = require("passport-jwt").Strategy;
 const ExtractJwt = require("passport-jwt").ExtractJwt;
 import config from "../config/database"
@@ -56,5 +60,3 @@ module.exports = function(passport){
         });
     }));
 }      
-
- */

@@ -4,8 +4,8 @@
   "description": "Node api to manager tasks",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm index.js",
-    "test": "NODE_ENV=test mocha --require coffee-script/register --watch --watch-extensions js,coffee test/**/*.{js,coffee}",
+    "start": "node --experimental-modules index.js",
+    "test": "NODE_ENV=test mocha test/**/*.js",
     "apidoc": "apidoc -i routes/ -o public/apidoc"
   },
   "repository": {
