@@ -105,8 +105,14 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 > http://apidocjs.com/ <br>
 > npm install apidoc --save-dev
 
+# Winston e Morga
+> gerar logs das requisições e tratar os SQLS gerados no banco
+> npm install winston morgan --save
+
+# Api REST doc
+
 # STUDY STOP
- Para testar essas alterações, basta reiniciar - pag 113
+ const CPUS = os.cpus(); file: clusters.js
 
 # Migration Guide to Mocha
 https://github.com/mochajs/mocha/wiki/compilers-deprecation

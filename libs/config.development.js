@@ -10,6 +10,9 @@
  /**
   * jwtSession: {session: false}: Informa ao passport que a autenticação não terá sessão do usuário.
   */
+
+  import logger from "./logger.js"
+
 module.exports = {
     database: "ntask",
     username: "",
@@ -17,6 +20,9 @@ module.exports = {
     params: {
         dialect: "sqlite",
         storage: "ntask.sqlite",
+        logging: (sql) => {
+            logger.info(`[${new Date()}] ${sql}`);
+        },
         define: {
             underscored: true
         }
