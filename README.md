@@ -110,9 +110,21 @@ Instalação: npm install passport passport-jwt jwt-simple --save
 > npm install winston morgan --save
 
 # Api REST doc
+> http://apidocjs.com/
+
+# Clusters
+> https://nodejs.org/api/cluster.html
+
+# GZIP
+> npm install compression --save
+> app.user(compression()); no arquivo middleware.js
+> verificar a compactação dos arquivos: http://localhost:3000/apidoc (Transferido e tamanho)
 
 # STUDY STOP
- const CPUS = os.cpus(); file: clusters.js
+11.6 Configurando SSL para usar HTTPS - pag 134.
 
 # Migration Guide to Mocha
 https://github.com/mochajs/mocha/wiki/compilers-deprecation
+
+# Erro import
+https://stackoverflow.com/questions/46176973/es6-import-statements-not-working-in-node-v8-4-0?rq=1

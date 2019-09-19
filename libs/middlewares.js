@@ -2,6 +2,7 @@ import bodyParser from "body-parser";
 import express from "express";
 import morgan from "morgan";
 import cors from "cors";
+import compression from "compression";
 import logger from "./logger";
 
 /**
@@ -12,7 +13,7 @@ module.exports = app => {
     //const Tasks = app.db.models.Tasks;
 
     app.set("port", 3000)
-    app.set("json spaces", 10);
+    app.set("json spaces", 4);
     /**
      * @INFO  -> registar os logs das requisições feitas no servidor - Usaremos o MORGAN
      * Para enviarmos esses logs para o nosso módulo logger , basta adicionar
@@ -26,12 +27,14 @@ module.exports = app => {
             }
         }
     }));
+
     /** Habilitando o cors*/
     app.use(cors({
         origin: ["http://localhost:3001"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"]
     }));
+    app.user(compression());
     app.use(bodyParser.json());
     app.use(app.auth.initialize());
     app.use((req, res, next) => {
